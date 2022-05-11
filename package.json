@@ -1,0 +1,27 @@
+{
+  "name": "remedian",
+  "version": "0.0.1",
+  "description": "A JavaScript implementation of Remedian algorithm for efficient approximate median calculation on streaming data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VMois/remedian-js.git"
+  },
+  "keywords": [
+    "median",
+    "statistics",
+    "stream"
+  ],
+  "author": "VMois",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VMois/remedian-js/issues"
+  },
+  "homepage": "https://github.com/VMois/remedian-js#readme",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}

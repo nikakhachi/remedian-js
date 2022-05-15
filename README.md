@@ -1,2 +1,3 @@
 # remedian-js
-Simple JavaScript implementation of Remedian algorithm for efficient approximate median calculation on a streaming data
+
+A simple JavaScript library for efficient approximation of median on a streaming data using *Remedian* algorithm.

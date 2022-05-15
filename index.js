@@ -12,7 +12,6 @@ class Remedian {
      * @param {number} bufferSize - size of a single buffer.
      */
   constructor(bufferSize) {
-    // TODO: check if bufferSize is an odd number
     this.bufferSize = bufferSize;
     this.buffers = [];
   }
@@ -38,7 +37,6 @@ class Remedian {
      */
   _bufferEmpty(position) {
     const array = this.buffers[position];
-    // TODO:
     for (let j = 0; j < array.length; j++) {
       if (array[j] != undefined) {
         return false;

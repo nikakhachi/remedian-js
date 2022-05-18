@@ -156,7 +156,7 @@ class Remedian {
       return undefined;
     }
 
-    if (this._shouldCalculateWeighted()) {
+    if (this._shouldCalculateWeightedMedian()) {
       const values = [];
       const weights = [];
       for (let j = 0; j < this.buffers.length; j++) {
@@ -166,7 +166,7 @@ class Remedian {
         values.push(...bufferValues);
         weights.push(...bufferWeights);
       }
-      return weightedMedian(values, weights);
+      return this._weightedMedian(values, weights);
     } else {
       return this.buffers[this.i][0];
     }
